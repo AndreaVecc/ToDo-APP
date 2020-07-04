@@ -15,10 +15,11 @@ body {
 
 h1 {
     text-align: center;
-    display: inline-block !important;
+    display: block !important;
     color: white;
     line-height: 30px;
     margin-bottom: 0 !important;
+    background-color: rgba(100, 149, 237, .5) !important;
 }
 
 input {
@@ -48,6 +49,9 @@ li {
     display: flex;
     justify-content: space-between;
     color: white;
+    border-bottom: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 li > a {

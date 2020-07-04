@@ -27,7 +27,7 @@ function addToDo(e) {
 
     // aggiungi x al <a></a>
 
-    link.innerHTML = '<h5>X</h5>';
+    link.innerHTML = '<p>X</p>';
 
     // mettere link nel li
     li.appendChild(link);
