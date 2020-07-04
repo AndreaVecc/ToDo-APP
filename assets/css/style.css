@@ -35,6 +35,7 @@ button {
     float: right;
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
+    border-radius: 4px !important;
     color: white;
     line-height: 30px !important;
 }
