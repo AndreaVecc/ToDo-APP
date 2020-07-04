@@ -22,8 +22,8 @@ h1 {
 }
 
 input {
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 100px;
     border: 2px solid cornflowerblue;
     border-radius: 4px;
     display: block;
@@ -36,4 +36,22 @@ button {
     border: 1px solid cornflowerblue;
     color: white;
     line-height: 30px !important;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+li > a {
+    float: right;
+    color: red !important;
+    cursor: pointer;
 }
