@@ -1,0 +1,39 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#left-bar {
+    background-color: cornflowerblue;
+    height: 100vh;
+    padding-left: 25px;
+}
+
+#right-bar {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block !important;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 0 !important;
+}
+
+input {
+    width: 800px;
+    height: 500px;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    display: block;
+}
+
+button {
+    margin-top: 30px !important;
+    float: right;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    line-height: 30px !important;
+}
